@@ -20,7 +20,7 @@
 - Linear Regressor
 - Lasso Regressor
 - Gradient-boosting Regressor
-The Random Forest Regressor model give the least MAE scores on the training and test sets. After performing feature importance on the chosen model, most significant features for accuracy are month, precipitation, harvested area and average temperature, which are relevant to crop yield. 
+The Random Forest Regressor model give the least MAE scores on the training and test sets.<br>After performing feature importance on the chosen model, most significant features for accuracy are month, precipitation, harvested area and average temperature, which are relevant to crop yield. 
 >
 ## Q3: Analyze text given and answer questions provided
 - Solutions in documentation file
