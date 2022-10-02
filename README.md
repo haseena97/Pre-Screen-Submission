@@ -11,6 +11,7 @@
 
 ## Q2: Prediction on fresh fruit bunch (FFB) yield
 - Identify important features and analyzed how they influence fresh fruit bunch (FFB) yield.
+- Created a Tableau dashboard on [fresh fruit bunch yield analysis](https://public.tableau.com/views/rfm_16624639585820/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 - There are 3 parts in this project:
 > **Step 1. EDA + Feature Engineering:** I looked at the distributions of the numerical data and the value counts for the categorical variables. Then I created several new features using ratio calculation and K-Means Clustering, which greatly reduced MAE baseline score to 0.515.
 >
@@ -22,15 +23,14 @@
 The Random Forest Regressor model give the least MAE scores on the training and test sets. After performing feature importance on the chosen model, most significant features for accuracy are month, precipitation, harvested area and average temperature, which are relevant to crop yield. 
 >
 ## Q3: Analyze text given and answer questions provided
-1. 
+- Solutions in documentation file
 
 ## Codes and Resources Used
 **Python Version:** Python 3.9<br>
-**Packages:** numpy, matplotlib, seaborn, sklearn, xgboost, flask, json, pickle<br>
-**RFM Analysis Notebook:** https://www.kaggle.com/code/yaowenling/rfm-customer-segmentation/notebook<br>
-**Cluster-then-predict Article:** https://towardsdatascience.com/cluster-then-predict-for-classification-tasks-142fdfdc87d6<br>
-**Flask Productionization Github:** https://github.com/PlayingNumbers/ds_salary_proj/tree/master/FlaskAPI<br>
-**Flask Productionization Article:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku
+**Packages:** numpy, matplotlib, seaborn, sklearn, nltk<br>
+**DBSCAN Article:** https://medium.com/@dilip.voleti/dbscan-algorithm-for-fraud-detection-outlier-detection-in-a-data-set-60a10ad06ea8<br>
+**Kruskal-Wallis Article:** https://www.geeksforgeeks.org/how-to-perform-a-kruskal-wallis-test-in-python/<br>
+
 
 
 
