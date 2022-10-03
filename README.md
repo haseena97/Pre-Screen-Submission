@@ -12,7 +12,7 @@
 ## Q2: Prediction on fresh fruit bunch (FFB) yield
 - Identify important features and analyzed how they influence fresh fruit bunch (FFB) yield.
 - Created a Tableau dashboard on [fresh fruit bunch yield analysis](https://public.tableau.com/views/OilPalmTreeYieldAnalysis/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
-- There are 3 parts in this project:
+- There are 2 parts in this project:
 > **Step 1. EDA + Feature Engineering:** I looked at the distributions of the numerical data and the value counts for the categorical variables. Then I created several new features using min-max ratio calculation and K-Means Clustering, which greatly reduced MAE baseline score to 0.515.
 >
 > **Step 2. Model Building:** I tried five different models on test set and evaluated them using MAE score:
