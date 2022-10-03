@@ -1,5 +1,5 @@
 # Pre-Screen-Submission: Overview
-- Complete step by step execution is available on my Jupyter notebook with full explanation in my documentation file.
+- Complete step by step execution is available on my Jupyter notebook with visualization highlights in my documentation file.
 ## Q1: Petrol additive clustering
 - Performed descriptive analysis on the additives and identify distinct number of formulations present in data.
 - There are 3 parts in this project:
